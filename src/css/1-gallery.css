@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+.gallery {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 100px;
+}
+
+.gallery-item {
+    list-style-type: none;
+}
+
+.gallery-image {
+    width: 360px;
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallery-image:hover {
+    transform: scale(1.04);
+}
