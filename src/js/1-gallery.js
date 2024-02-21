@@ -1,5 +1,3 @@
-// 'use strict';
-
 const images = [
   {
     preview:
@@ -89,7 +87,5 @@ gallery.innerHTML = galleryMarkup;
   
 let lightbox = new SimpleLightbox('.gallery a', {
     captionsData: 'alt',
-    captionPosition: 'bottom',
     captionDelay: 250,
 });
-lightbox.on('show.simplelightbox');

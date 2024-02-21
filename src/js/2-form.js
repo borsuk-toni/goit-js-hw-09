@@ -24,8 +24,8 @@ form.addEventListener('submit', event => {
     }
     
     const formInfo = {
-        email: form.elements.email.value.trim(),
-        message: form.elements.message.value.trim(),
+        email: form.elements.email.value,
+        message: form.elements.message.value,
     };
     console.log(formInfo);
 
